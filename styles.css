@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(151, 203, 245, 0.822);
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.superior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26vh;
+}
+
+.middle {
+  height: 28vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(60, 94, 248);
+  width: 61vw
+  
+}
+
+.paragraph {
+ 
+  display: flex;
+  gap: 180px;
+  background-color: rgb(60, 94, 248);
+  width: 61vw;
+}
+
+img {
+  height: 11rem;
+}
+
+.superior-image {
+  height: 11rem;
+  width: 52rem;
+}
+
+.text {
+  display: flex;
+  gap: 25px;
+}
+
+input {
+  height: 2rem;
+  width: 10rem;
+}
+
+.images-m {
+  border-right: 1px solid white;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+.paragraph-edit {
+  font-size: 1.5rem;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  top: 45px;
+  bottom: 15px;
+  right: 15px;
+  left: 800px;
+}
+
+.text-paragraph {
+  font-size: 2rem;
+}
+
+select{
+  height: 5vh;
+  width: 8vw;
+}
